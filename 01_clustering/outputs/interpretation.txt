@@ -1,0 +1,8 @@
+Asset clustering interpretation
+================================
+
+The clustering stage uses monthly simple returns and correlation-based distance. It reduces the analyzed universe from 13 assets to 7 cluster representatives (46% reduction).
+
+Selected assets: СберБанк, Белинвестбанк, Приорбанк, МАПИД, СлуцкСахарКомб, Трест-35, Минскпромстрой.
+
+This module is used as an asset-universe reduction step. Portfolio construction is intentionally handled in the separate CVaR module, where the selected asset price matrix is used as the input.

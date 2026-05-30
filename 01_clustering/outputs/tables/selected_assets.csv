@@ -1,0 +1,8 @@
+﻿asset,cluster_id,annual_return_pct,annual_risk_pct,selection_rule
+СберБанк,1,22.6,27.0,highest annualized simple return within cluster
+Белинвестбанк,2,212.4,283.3,highest annualized simple return within cluster
+Приорбанк,3,3.5,24.0,highest annualized simple return within cluster
+МАПИД,4,17.2,31.8,highest annualized simple return within cluster
+СлуцкСахарКомб,5,21.1,40.4,highest annualized simple return within cluster
+Трест-35,6,50.5,29.6,highest annualized simple return within cluster
+Минскпромстрой,7,8.1,22.1,highest annualized simple return within cluster

@@ -1,0 +1,10 @@
+CVaR portfolio interpretation
+=============================
+
+This module focuses only on portfolio optimization. The 7-asset universe is a predefined input from the clustering module; no clustering is repeated here.
+
+The CVaR 95% portfolio minimizes the expected loss in the adverse 5% tail of the empirical monthly return distribution. In the current sample, its monthly CVaR is -2.25% versus -3.95% for the minimum-volatility portfolio and -4.29% for the equal-weight benchmark.
+
+The largest positive weights in the CVaR portfolio are: Трест-35 (29.5%), Минскпромстрой (24.2%), СберБанк (20.4%), Белинвестбанк (19.4%), МАПИД (6.5%).
+
+The CVaR portfolio has annual return 36.98% and annual volatility 24.01%. The minimum-volatility portfolio has annual return 13.02% and annual volatility 9.72%. This difference shows that minimizing volatility and minimizing tail loss are related but not identical risk objectives.

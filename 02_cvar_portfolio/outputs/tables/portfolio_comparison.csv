@@ -1,0 +1,4 @@
+﻿portfolio,annual_return_pct,annual_volatility_pct,var_95_monthly_pct,cvar_95_monthly_pct,max_drawdown_pct,sharpe_annual
+Equal Weight,26.8105,17.8002,-2.9138,-4.2868,-5.8024,1.5062
+Minimum Volatility,13.0187,9.7246,-1.4684,-3.9514,-7.1964,1.3387
+CVaR 95%,36.9801,24.013,-2.2522,-2.2522,-4.9111,1.54

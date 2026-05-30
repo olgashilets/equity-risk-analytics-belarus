@@ -1,0 +1,16 @@
+﻿portfolio,factor,factor_label,shock,beta,contribution_return_pp,total_delta_return_pp,sum_abs_contributions_pp
+CVaR 95%,inflation_mom_pct,"Inflation MoM, %",1.0,3.09499241821146,3.09499241821146,-27.174750918143598,33.36473575456652
+CVaR 95%,usd_byn_depreciation_pct,"BYN depreciation vs USD, MoM, %",5.0,-1.7530049740150362,-8.76502487007518,-27.174750918143598,33.36473575456652
+CVaR 95%,refinancing_rate_change_pp,"Refinancing rate change, p.p.",1.0,-21.221357353099076,-21.221357353099076,-27.174750918143598,33.36473575456652
+CVaR 95%,industrial_prod_yoy_change_pp,"Industrial growth change, p.p.",-2.0,0.14168055659040074,-0.2833611131808015,-27.174750918143598,33.36473575456652
+CVaR 95%,TOTAL,Total stress scenario,,,-27.174750918143598,-27.174750918143598,33.36473575456652
+Equal Weight,inflation_mom_pct,"Inflation MoM, %",1.0,0.941662324879731,0.941662324879731,-22.46809041330242,24.351415063061882
+Equal Weight,usd_byn_depreciation_pct,"BYN depreciation vs USD, MoM, %",5.0,-1.3399673685024895,-6.699836842512448,-22.46809041330242,24.351415063061882
+Equal Weight,refinancing_rate_change_pp,"Refinancing rate change, p.p.",1.0,-16.343979434563337,-16.343979434563337,-22.46809041330242,24.351415063061882
+Equal Weight,industrial_prod_yoy_change_pp,"Industrial growth change, p.p.",-2.0,0.1829682305531826,-0.3659364611063652,-22.46809041330242,24.351415063061882
+Equal Weight,TOTAL,Total stress scenario,,,-22.46809041330242,-22.46809041330242,24.351415063061882
+Minimum Volatility,inflation_mom_pct,"Inflation MoM, %",1.0,0.36262963262786335,0.36262963262786335,-6.48202979986482,7.207289065120547
+Minimum Volatility,usd_byn_depreciation_pct,"BYN depreciation vs USD, MoM, %",5.0,-0.22167295591474534,-1.1083647795737268,-6.48202979986482,7.207289065120547
+Minimum Volatility,refinancing_rate_change_pp,"Refinancing rate change, p.p.",1.0,-5.7237153751193315,-5.7237153751193315,-6.48202979986482,7.207289065120547
+Minimum Volatility,industrial_prod_yoy_change_pp,"Industrial growth change, p.p.",-2.0,0.006289638899812593,-0.012579277799625185,-6.48202979986482,7.207289065120547
+Minimum Volatility,TOTAL,Total stress scenario,,,-6.48202979986482,-6.48202979986482,7.207289065120547

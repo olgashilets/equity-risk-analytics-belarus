@@ -1,0 +1,6 @@
+Equal Weight: R_t(%) = 1.5390 + 0.9417·inflation_mom_pct - 1.3400·usd_byn_depreciation_pct - 16.3440**·refinancing_rate_change_pp + 0.1830·industrial_prod_yoy_change_pp + ε_t | R²=0.299, adj.R²=0.151, n=24, cov=HC1
+    Robust p-values: const=0.182, inflation_mom_pct=0.664, usd_byn_depreciation_pct=0.147, refinancing_rate_change_pp=0.040, industrial_prod_yoy_change_pp=0.508
+Minimum Volatility: R_t(%) = 0.8932 + 0.3626·inflation_mom_pct - 0.2217·usd_byn_depreciation_pct - 5.7237·refinancing_rate_change_pp + 0.0063·industrial_prod_yoy_change_pp + ε_t | R²=0.038, adj.R²=-0.165, n=24, cov=HC1
+    Robust p-values: const=0.260, inflation_mom_pct=0.770, usd_byn_depreciation_pct=0.609, refinancing_rate_change_pp=0.183, industrial_prod_yoy_change_pp=0.974
+CVaR 95%: R_t(%) = 1.2396 + 3.0950·inflation_mom_pct - 1.7530·usd_byn_depreciation_pct - 21.2214**·refinancing_rate_change_pp + 0.1417·industrial_prod_yoy_change_pp + ε_t | R²=0.326, adj.R²=0.185, n=24, cov=HC1
+    Robust p-values: const=0.399, inflation_mom_pct=0.243, usd_byn_depreciation_pct=0.158, refinancing_rate_change_pp=0.035, industrial_prod_yoy_change_pp=0.718

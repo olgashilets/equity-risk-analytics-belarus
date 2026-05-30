@@ -1,0 +1,20 @@
+Macro factor stress-testing interpretation
+====================================================
+Model: R_portfolio,t (%) = α + β1·inflation + β2·FX_depreciation + β3·rate_change + β4·industrial_growth_change + ε.
+Portfolio returns are converted to percentages, so beta shows the change in monthly return in percentage points per one unit of the factor.
+
+VIF diagnostics:
+- Inflation MoM, %: VIF=1.25 (OK)
+- BYN depreciation vs USD, MoM, %: VIF=1.19 (OK)
+- Refinancing rate change, p.p.: VIF=1.12 (OK)
+- Industrial growth change, p.p.: VIF=1.06 (OK)
+
+Stress scenario (+1 p.p. inflation, +5% USD/BYN, +1 p.p. refinancing rate, -2 p.p. industrial growth):
+- CVaR 95%: total delta=-27.17 p.p.; sum of absolute factor contributions=33.36 p.p.
+- Equal Weight: total delta=-22.47 p.p.; sum of absolute factor contributions=24.35 p.p.
+- Minimum Volatility: total delta=-6.48 p.p.; sum of absolute factor contributions=7.21 p.p.
+
+Lowest absolute total delta: Minimum Volatility (-6.48 p.p.).
+Lowest sum of absolute factor contributions: Minimum Volatility (7.21 p.p.).
+
+This complements the CVaR case: CVaR measures the historical adverse tail, while the factor model measures sensitivity to specific macro shocks. The sample is short, so the estimates should be interpreted as indicative rather than causal.

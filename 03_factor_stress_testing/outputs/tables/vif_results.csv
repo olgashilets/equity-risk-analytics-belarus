@@ -1,0 +1,5 @@
+﻿factor,factor_label,vif
+inflation_mom_pct,"Inflation MoM, %",1.2511804468118282
+usd_byn_depreciation_pct,"BYN depreciation vs USD, MoM, %",1.1919589904280927
+refinancing_rate_change_pp,"Refinancing rate change, p.p.",1.121751755120459
+industrial_prod_yoy_change_pp,"Industrial growth change, p.p.",1.0637231630001358
