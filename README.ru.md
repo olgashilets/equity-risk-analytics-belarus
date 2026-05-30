@@ -81,6 +81,14 @@ python run_factor_analysis.py
 
 Результаты сохраняются в папках `outputs/` внутри каждого модуля.
 
+## Selected outputs
+
+### CVaR portfolio cumulative returns
+![Cumulative returns](02_cvar_portfolio/outputs/figures/cumulative_returns.png)
+
+### Portfolio weights comparison
+![Weights comparison](02_cvar_portfolio/outputs/figures/weights_comparison.png)
+
 ## Ограничения
 
 Проект является аналитическим кейсом и не является инвестиционной рекомендацией. Подробнее: [`docs/limitations.md`](docs/limitations.md).
