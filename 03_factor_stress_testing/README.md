@@ -73,7 +73,3 @@ outputs/
 │   └── sensitivity_barchart.png
 └── interpretation.txt
 ```
-
-## Limitations
-
-The factor estimates are indicative. The script attempts HC3 robust covariance, but falls back to HC1 if HC3 becomes non-finite due to high-leverage observations. The sample has only 24 monthly portfolio-return observations, the market is illiquid, refinancing-rate changes are rare, and most coefficients are not statistically significant. This is a sensitivity-analysis and stress-testing framework, not a forecasting model or investment recommendation.
