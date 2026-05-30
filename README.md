@@ -91,6 +91,14 @@ python run_factor_analysis.py
 
 Each module writes its results to its own `outputs/` folder.
 
+## Selected outputs
+
+### CVaR portfolio cumulative returns
+![Cumulative returns](02_cvar_portfolio/outputs/figures/cumulative_returns.png)
+
+### Portfolio weights comparison
+![Weights comparison](02_cvar_portfolio/outputs/figures/weights_comparison.png)
+
 ## Data and limitations
 
 This project is a case study and is not an investment recommendation. See [`docs/limitations.md`](docs/limitations.md) for details.
