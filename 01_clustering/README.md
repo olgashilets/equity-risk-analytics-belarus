@@ -15,8 +15,6 @@ This case study reduces an equity universe by grouping assets with similar month
 - Hierarchical clustering is applied with Ward linkage.
 - One representative asset is selected from each cluster using the highest annualized simple return within the cluster.
 
-Using simple returns here is intentional. It reproduces the selected universe used in the downstream portfolio project. Changing this stage to log returns changes the clustering output and would require recalculating the CVaR and factor-analysis modules.
-
 ## How to run
 
 From this folder:
@@ -43,7 +41,3 @@ outputs/
 ```
 
 The file `outputs/tables/selected_asset_prices.csv` is the intended input for the next module, `02_cvar_portfolio`.
-
-## Portfolio value
-
-This project demonstrates exploratory financial analysis, return preprocessing, correlation analysis, hierarchical clustering and business interpretation of a reduced asset universe.
