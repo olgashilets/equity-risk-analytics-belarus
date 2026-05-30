@@ -24,10 +24,10 @@ Illiquid equity markets often contain assets with irregular trading activity, sh
 
 ```text
 equity-risk-analytics-belarus/
-├── 01_clustering/                  # asset universe reduction
-├── 02_cvar_portfolio/              # Expected Shortfall / CVaR optimization
-├── 03_factor_stress_testing/       # macro factor sensitivity and stress test
-├── docs/                           # methodology, limitations, data dictionary
+├── 01_clustering/
+├── 02_cvar_portfolio/
+├── 03_factor_stress_testing/
+├── docs/
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
@@ -93,4 +93,4 @@ Each module writes its results to its own `outputs/` folder.
 
 ## Data and limitations
 
-This project is a portfolio case study and is not an investment recommendation. The sample is short, the market is illiquid, and model results should be interpreted as indicative. See [`docs/limitations.md`](docs/limitations.md) for details.
+This project is a case study and is not an investment recommendation. See [`docs/limitations.md`](docs/limitations.md) for details.
