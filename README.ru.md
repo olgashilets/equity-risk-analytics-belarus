@@ -24,10 +24,10 @@
 
 ```text
 equity-risk-analytics-belarus/
-├── 01_clustering/                  # сокращение инвестиционной вселенной
-├── 02_cvar_portfolio/              # оптимизация Expected Shortfall / CVaR
-├── 03_factor_stress_testing/       # факторная чувствительность и стресс-тест
-├── docs/                           # методология, ограничения, словарь данных
+├── 01_clustering/
+├── 02_cvar_portfolio/
+├── 03_factor_stress_testing/
+├── docs/
 ├── requirements.txt
 ├── .gitignore
 ├── README.md
@@ -83,4 +83,4 @@ python run_factor_analysis.py
 
 ## Ограничения
 
-Проект является аналитическим кейсом для портфолио и не является инвестиционной рекомендацией. Выборка короткая, рынок малоликвидный, а результаты моделей нужно трактовать как индикативные. Подробнее: [`docs/limitations.md`](docs/limitations.md).
+Проект является аналитическим кейсом и не является инвестиционной рекомендацией. Подробнее: [`docs/limitations.md`](docs/limitations.md).
